@@ -1,0 +1,35 @@
+.column {
+    /* border: 1px solid red; */
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px; 
+}
+
+  .item-wrapper {
+      width: 300px; 
+      font-size: 10px; 
+      text-align: center; 
+  }
+
+  .item-wrapper img {
+    /* height: 100px; */ 
+  }
+.foot-title {
+    font-weight: bold; 
+    font-size: 12px; 
+}
+
+.food-price {
+    color: red; 
+}
+
+a.cart-button {
+    padding: 5px; 
+    background-color: orange; 
+    color:white; 
+    text-decoration: none; 
+    border-radius: 10px; 
+    display: block; 
+}
